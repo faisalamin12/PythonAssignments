@@ -1,0 +1,29 @@
+name = input("Enter Your name")
+print("welcome "+ name)
+
+num1 = int(input("Enter 1st number: "))
+
+op = input("Enter Operator: ")
+
+num2 = int(input("Enter 2nd Number: "))
+
+result = 0
+
+if op == "+":
+    result = num1 + num2
+    print("The result is:",result)
+elif op == "-":
+    result = num1 - num2
+    print("The result is: ",result)
+elif op == "*":
+    result = num1 * num2
+    print("The result is: ",result)
+elif op == "/":
+    result = num1 / num2
+    print("The result is: ",result)
+elif op == "%":
+    result = num1 % num2
+    print("The result is: ",result)
+else:
+    print("Invalid Operator")
+    
