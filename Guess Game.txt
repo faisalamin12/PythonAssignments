@@ -1,0 +1,15 @@
+print("=== Guess game===")
+name= input("Enter Your name")
+print("Dear: "+name+" Plz input any number")
+
+corr_number = 5
+guess = int(input("Enter any number"))
+
+if guess == corr_number:
+    print("Congrats! You won")
+elif guess > corr_number:
+    print("Your number in greater then orignal Try again later")
+elif guess < corr_number and guess > 0:
+    print("Your number in lower then orignal Try again later")
+elif guess < 0:
+    print("Invalid Input")
