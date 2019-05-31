@@ -1,0 +1,51 @@
+#              Making Lists
+city1 = "karachi"
+city2 = "Islamabad"
+city3 = "Lahore"
+city4 = "Peshawar"
+print("Through variables: "+city1 +" " + city2 + " " + city3 + " " + city4)
+
+list = ["Karachi" , "Islamabad" , "Lahore" , "Peshawar"]
+print("Through list: ",list)
+
+
+# List contain diffrent type of values in single list
+
+a = ["Karachi", 1 , 2.99 , True]
+print(a)
+
+
+# Append in a list
+# Append means insert value at the end of the list
+
+listA = ["Sindh", "Punjab", "Balochistan"]
+print ("Before Append: ",listA)
+listA.append("Khyber pakhtun")
+print ("After append Append: ",listA)
+
+
+#Take the input from the user to append the value
+listB = ["Cricket", "Hockey" , "Football"]
+user_input = input("Enter any sport: ")
+listB.append(user_input)
+print("After append: ",listB)
+
+
+
+# Insert value in the list
+'''Note: diffrence between append and insert is append insert the value at the end of the list
+ and Insert() insert the value according to the index number'''
+
+listC = ["A", "B" , "C"]
+listC.insert(3, "D")
+print("After Insert: ",listC)
+
+
+
+# Insert value by user
+
+list_C = [50 , 49 , 8 , 43]
+user_input = int(input("Enter a value (in numbers) which you want to insert: "))
+ind_no=int(input("Enter a index..no bw 0-3"))
+list_C.insert(ind_no , user_input)
+print("After Insert: ", list_C)
